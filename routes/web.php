@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +15,9 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::controller(\App\Http\Controllers\BookingController::class)->group(function() {
+    Route::group(['prefix' => 'booking', 'as' => 'booking.'], function() {
+        Route::get('/', 'index')->name('index');
+    });
+});
