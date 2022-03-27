@@ -22,36 +22,49 @@
                 </ul>
                 <div class="col-md-12">
                     <a class="btn btn-block btn-white-purple scroll-project">Saiba Mais</a>
+                    <a class="btn btn-success">Estou aq</a>
                 </div>
             </div>
         </div>
     </div>
     <section id="about">
-        <p class="header-subtitle">Experiências atuais:</p>
+        <p class="header-title">Ferramentas utilizadas:</p>
         <div class="row">
-            <div class="col-md-6 text-center p-3">
-                <span class="btn btn-dark btn-floating m-1" style="cursor: default;">
-                    <i class="fas fa-code fa-fw fa-2x"></i>
+            <div class="col-md-4 text-center p-3">
+                <span class="btn btn-purple btn-floating m-1" style="cursor: default;">
+                    <i class="fab fa-php fa-fw fa-2x"></i>
                 </span>
-                <span class="d-block text-subtitle-sm">PHP Laravel</span>
+                <span class="d-block text-subtitle-sm">PHP 8.0</span>
             </div>
-            <div class="col-md-6 text-center p-3">
-                <span class="btn btn-dark btn-floating m-1" style="cursor: default;">
-                    <i class="fas fa-database fa-fw fa-2x"></i>
+            <div class="col-md-4 text-center p-3">
+                <span class="btn btn-purple btn-floating m-1" style="cursor: default;">
+                    <i class="fab fa-laravel fa-fw fa-2x"></i>
+                </span>
+                <span class="d-block text-subtitle-sm">Laravel 9.2</span>
+            </div>
+            <div class="col-md-4 text-center p-3">
+                <span class="btn btn-purple btn-floating m-1" style="cursor: default;">
+                    <i class="fas fa-server fa-fw fa-2x"></i>
                 </span>
                 <span class="d-block text-subtitle-sm">Postgres</span>
             </div>
-            <div class="col-md-6 text-center p-3">
-                <span class="btn btn-dark btn-floating m-1" style="cursor: default;">
+            <div class="col-md-4 text-center p-3">
+                <span class="btn btn-purple btn-floating m-1" style="cursor: default;">
                     <i class="fab fa-html5 fa-fw fa-2x"></i>
                 </span>
                 <span class="d-block text-subtitle-sm">HTML</span>
             </div>
-            <div class="col-md-6 text-center p-3">
-                <span class="btn btn-dark btn-floating m-1" style="cursor: default;">
+            <div class="col-md-4 text-center p-3">
+                <span class="btn btn-purple btn-floating m-1" style="cursor: default;">
                     <i class="fab fa-bootstrap fa-fw fa-2x"></i>
                 </span>
-                <span class="d-block text-subtitle-sm">Bootstrap 4</span>
+                <span class="d-block text-subtitle-sm">Bootstrap 5</span>
+            </div>
+            <div class="col-md-4 text-center p-3">
+                <span class="btn btn-purple btn-floating m-1" style="cursor: default;">
+                    <i class="fab fa-js fa-fw fa-2x"></i>
+                </span>
+                <span class="d-block text-subtitle-sm">Javascript/JQuery</span>
             </div>
         </div>
         <br>
@@ -72,7 +85,7 @@
                             <span class="text-muted">
                                 Projeto Booking, aqui irei fazer o controle de um booking de fotos, com compressão de imagem e redimensão de imagem
                             </span>
-                            <a class="btn btn-outline-purple mt-3 d-block" role="button">Clique Aqui</a>
+                            <a href="{{ route('booking.index') }}" class="btn btn-outline-purple mt-3 d-block" role="button">Clique Aqui</a>
                         </div>
                     </div>
                 </div>
