@@ -1,8 +1,8 @@
-<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-primary rounded-bottom shadow-sm">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-md navbar-dark bg-purple shadow-sm">
+    <div class="container">
         <a href="{{ route('home') }}" class="navbar-brand">
             <i class="fas fa-arrow-pointer"></i>
-            <span>Project</span>
+            <span>Projeto</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarOptions" aria-controls="navbarOptions" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -12,10 +12,10 @@
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a id="projectsArea" class="nav-link" href="#projects" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            <i class="fas fa-book"></i>
-                            Projetos
+                            <i class="fas fa-book d-sm-none d-md-inline"></i>
+                            <span>Projetos</span>
                         </a>
-                        <div id="projects" class="dropdown-menu fade dropdown-menu-start" aria-labelledby="projectsArea">
+                        <div id="projects" class="dropdown-menu animate__animated animate__fadeIn dropdown-menu-start " aria-labelledby="projectsArea">
                             <a class="dropdown-item" href="{{ route('booking.index') }}">
                                Booking
                             </a>

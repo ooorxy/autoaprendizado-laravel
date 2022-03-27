@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap');
+
+/* Estilos Gerais */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    background-color: rgba(244,244,244,0.4);
+}
+
+#main {
+    margin: auto;
+}
+
+/* Ajustes da Navbar */
+
+.navbar {
+    padding: 1.2em;
+    transition: top 0.3s;
+}
+
+/* Ajustes de Cores */
+
+.bg-purple {
+    color: white;
+    background-color: #A047A8;
+}
+
+.btn-purple {
+    color: white;
+    background-color: #A047A8;
+    border-color: #A047A8;
+}
+
+.btn-purple:hover {
+    color: white;
+    background-color: #96439e;
+    border-color: #96439e;
+}
+
+
+.btn-white-purple {
+    color: #A047A8;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-white-purple:hover {
+    color: #96439e;
+    background-color: #d5d5d5;
+    border-color: #d5d5d5;
+}
+
+.btn-outline-purple {
+    color: #A047A8;
+    border-color: #A047A8;
+}
+
+.btn-outline-purple:hover {
+    color: #fff;
+    background-color: #96439e;
+    border-color: #96439e;
+}
+
+/* Designs Classes */
+
+.section-content {
+    background: #A047A8;
+    color: white;
+    padding: 2em 0;
+    position: relative;
+    text-align: center;
+}
+
+#about {
+    background-color: #f3f4fe;
+    padding: 3em;
+}
+
+.header-title {
+    color: #A047A8;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.header-subtitle {
+    color: #A047A8;
+    font-weight: bolder;
+}
+
+.text-subtitle-md {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.text-subtitle-sm {
+    font-size: 18px;
+    font-weight: inherit;
+}
+
+.img-foguete {
+    margin-top: 1em;
+    filter: drop-shadow(0px 6px 8px black);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.ul-section li {
+    position: relative;
+    list-style-type: none;
+    margin-bottom: 0.4em;
+}
+
+.icon {
+    background-color: #315252;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.panel {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+}

@@ -16,6 +16,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -26,11 +27,14 @@
     <div id="app">
         @include('layouts.topbar')
 
-        <main id="main" class="py-4">
+        <main id="main">
             @yield('content')
         </main>
+
+{{--        @include('layouts.footer')--}}
     </div>
     @include('sweetalert::alert')
+    <script src="{{ asset('vendor/jquery/jquery-3.6.0.min.js') }}"></script>
     @stack('scripts')
 </body>
 </html>

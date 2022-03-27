@@ -9,7 +9,7 @@
                         <h3 class="card-title">Booking</h3>
                     </div>
                     <div class="card-body">
-                        <div class="container-fluid">
+                        <div class="container">
                             estou aqui
                         </div>
                     </div>
