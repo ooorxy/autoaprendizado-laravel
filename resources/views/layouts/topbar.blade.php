@@ -12,7 +12,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a id="projectsArea" class="nav-link" href="#projects" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            <i class="fas fa-book d-sm-none d-md-inline"></i>
+                            <i style="display: none" class="fas fa-book d-md-inline"></i>
                             <span>Projetos</span>
                         </a>
                         <div id="projects" class="dropdown-menu animate__animated animate__fadeIn dropdown-menu-start " aria-labelledby="projectsArea">

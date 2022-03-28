@@ -1,20 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="d-flex justify-content-end p-4">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ route('home') }}">Página Inicial</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Booking</li>
+            </ol>
+        </nav>
+    </div>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10">
-                <div class="card">
-                    <div class="card-header text-center">
-                        <h3 class="card-title">Booking</h3>
-                    </div>
-                    <div class="card-body">
-                        <div class="container">
-                            estou aqui
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="panel">
+            <p class="header-title">
+                Booking
+                <span class="float-end"><a class="btn btn-purple">Cadastrar</a></span>
+            </p>
+            <hr>
         </div>
     </div>
 @endsection

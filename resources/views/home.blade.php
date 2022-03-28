@@ -22,7 +22,6 @@
                 </ul>
                 <div class="col-md-12">
                     <a class="btn btn-block btn-white-purple scroll-project">Saiba Mais</a>
-                    <a class="btn btn-success">Estou aq</a>
                 </div>
             </div>
         </div>
